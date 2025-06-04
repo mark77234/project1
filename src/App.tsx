@@ -1,12 +1,17 @@
 import React from "react";
-import LandingPage from "./pages/LandingPage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import RoadmapPage from "./components/RoadmapPage";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <LandingPage />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/roadmap/:careerId" element={<RoadmapPage />} />
+      </Routes>
+    </Router>
   );
 }
 

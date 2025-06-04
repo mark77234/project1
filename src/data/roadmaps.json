@@ -1,0 +1,82 @@
+{
+  "프론트엔드 개발자": {
+    "title": "프론트엔드 개발자",
+    "steps": [
+      {
+        "id": 1,
+        "title": "HTML/CSS 기초",
+        "description": "웹의 기본 구조와 스타일링을 배웁니다.",
+        "resources": [
+          {
+            "title": "MDN Web Docs",
+            "url": "https://developer.mozilla.org/ko/docs/Web/HTML"
+          },
+          {
+            "title": "CSS-Tricks",
+            "url": "https://css-tricks.com/"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "JavaScript 기초",
+        "description": "자바스크립트의 기본 문법과 DOM 조작을 학습합니다.",
+        "resources": [
+          {
+            "title": "모던 JavaScript 튜토리얼",
+            "url": "https://ko.javascript.info/"
+          },
+          {
+            "title": "Eloquent JavaScript",
+            "url": "https://eloquentjavascript.net/"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "React 기초",
+        "description": "React의 기본 개념과 컴포넌트 기반 개발을 배웁니다.",
+        "resources": [
+          {
+            "title": "React 공식 문서",
+            "url": "https://ko.reactjs.org/"
+          },
+          {
+            "title": "React Router",
+            "url": "https://reactrouter.com/"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "상태 관리",
+        "description": "Redux나 Context API를 사용한 상태 관리 방법을 학습합니다.",
+        "resources": [
+          {
+            "title": "Redux 공식 문서",
+            "url": "https://redux.js.org/"
+          },
+          {
+            "title": "React Context",
+            "url": "https://ko.reactjs.org/docs/context.html"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "성능 최적화",
+        "description": "React 애플리케이션의 성능을 개선하는 방법을 학습합니다.",
+        "resources": [
+          {
+            "title": "React 성능 최적화",
+            "url": "https://ko.reactjs.org/docs/optimizing-performance.html"
+          },
+          {
+            "title": "React.memo와 useMemo",
+            "url": "https://ko.reactjs.org/docs/react-api.html#reactmemo"
+          }
+        ]
+      }
+    ]
+  }
+}
