@@ -78,5 +78,85 @@
         ]
       }
     ]
+  },
+  "피트니스 트레이너": {
+    "title": "피트니스 트레이너",
+    "steps": [
+      {
+        "id": 1,
+        "title": "운동 생리학 기초",
+        "description": "인체의 운동 반응과 구조를 이해합니다.",
+        "resources": [
+          {
+            "title": "KISS 운동생리학 개론",
+            "url": "https://www.kiss.kstudy.com/"
+          },
+          {
+            "title": "NSCA 운동생리학",
+            "url": "https://www.nsca.com/"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "체력 측정 및 프로그램 설계",
+        "description": "개인 맞춤형 운동 프로그램을 설계하는 법을 배웁니다.",
+        "resources": [
+          {
+            "title": "ACSM Personal Trainer Manual",
+            "url": "https://www.acsm.org/"
+          },
+          {
+            "title": "운동처방 강의 (YouTube)",
+            "url": "https://www.youtube.com/results?search_query=운동처방"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "PT 실무 경험",
+        "description": "현장에서 트레이닝을 직접 수행하며 경험을 쌓습니다.",
+        "resources": [
+          {
+            "title": "헬스장 실습 프로그램",
+            "url": "https://fitner.co.kr/"
+          },
+          {
+            "title": "현장 실습 후기",
+            "url": "https://blog.naver.com/"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "자격증 취득",
+        "description": "국내외 피트니스 관련 자격증을 준비합니다.",
+        "resources": [
+          {
+            "title": "생활스포츠지도사",
+            "url": "https://www.kspo.or.kr/"
+          },
+          {
+            "title": "NSCA CPT",
+            "url": "https://www.nsca.com/certification/cpt/"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "고객 관리 및 커뮤니케이션",
+        "description": "고객과의 소통 및 상담 능력을 강화합니다.",
+        "resources": [
+          {
+            "title": "퍼스널트레이너 상담법",
+            "url": "https://www.youtube.com/results?search_query=pt상담"
+          },
+          {
+            "title": "피트니스 코칭 스킬",
+            "url": "https://www.acefitness.org/"
+          }
+        ]
+      }
+    ]
   }
 }
