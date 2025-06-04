@@ -5,155 +5,718 @@
       {
         "id": 1,
         "title": "HTML/CSS 기초",
-        "description": "웹의 기본 구조와 스타일링을 배웁니다.",
+        "description": "웹 페이지 구조와 스타일링 기본을 익힙니다.",
         "resources": [
           {
-            "title": "MDN Web Docs",
+            "title": "MDN HTML 가이드",
             "url": "https://developer.mozilla.org/ko/docs/Web/HTML"
           },
           {
-            "title": "CSS-Tricks",
-            "url": "https://css-tricks.com/"
+            "title": "MDN CSS 가이드",
+            "url": "https://developer.mozilla.org/ko/docs/Web/CSS"
           }
         ]
       },
       {
         "id": 2,
         "title": "JavaScript 기초",
-        "description": "자바스크립트의 기본 문법과 DOM 조작을 학습합니다.",
+        "description": "자바스크립트 문법과 기본 동작 원리를 배웁니다.",
         "resources": [
+          { "title": "JavaScript.info", "url": "https://javascript.info/" },
           {
-            "title": "모던 JavaScript 튜토리얼",
-            "url": "https://ko.javascript.info/"
-          },
-          {
-            "title": "Eloquent JavaScript",
-            "url": "https://eloquentjavascript.net/"
+            "title": "MDN JavaScript 가이드",
+            "url": "https://developer.mozilla.org/ko/docs/Web/JavaScript"
           }
         ]
       },
       {
         "id": 3,
-        "title": "React 기초",
-        "description": "React의 기본 개념과 컴포넌트 기반 개발을 배웁니다.",
+        "title": "React 기본",
+        "description": "컴포넌트 기반 UI 개발 방법을 익힙니다.",
         "resources": [
+          { "title": "React 공식 문서", "url": "https://ko.reactjs.org/" },
           {
-            "title": "React 공식 문서",
-            "url": "https://ko.reactjs.org/"
-          },
-          {
-            "title": "React Router",
-            "url": "https://reactrouter.com/"
+            "title": "React Tutorial",
+            "url": "https://reactjs.org/tutorial/tutorial.html"
           }
         ]
       },
       {
         "id": 4,
-        "title": "상태 관리",
-        "description": "Redux나 Context API를 사용한 상태 관리 방법을 학습합니다.",
+        "title": "상태 관리와 라우팅",
+        "description": "Redux, Context API, React Router를 배웁니다.",
         "resources": [
-          {
-            "title": "Redux 공식 문서",
-            "url": "https://redux.js.org/"
-          },
-          {
-            "title": "React Context",
-            "url": "https://ko.reactjs.org/docs/context.html"
-          }
+          { "title": "Redux 공식 문서", "url": "https://redux.js.org/" },
+          { "title": "React Router", "url": "https://reactrouter.com/" }
         ]
       },
       {
         "id": 5,
-        "title": "성능 최적화",
-        "description": "React 애플리케이션의 성능을 개선하는 방법을 학습합니다.",
+        "title": "웹 성능 최적화 및 배포",
+        "description": "웹 앱 최적화와 배포 과정을 익힙니다.",
         "resources": [
-          {
-            "title": "React 성능 최적화",
-            "url": "https://ko.reactjs.org/docs/optimizing-performance.html"
-          },
-          {
-            "title": "React.memo와 useMemo",
-            "url": "https://ko.reactjs.org/docs/react-api.html#reactmemo"
-          }
+          { "title": "웹 성능 최적화", "url": "https://web.dev/fast/" },
+          { "title": "Netlify 배포 가이드", "url": "https://docs.netlify.com/" }
         ]
       }
     ]
   },
-  "피트니스 트레이너": {
-    "title": "피트니스 트레이너",
+  "백엔드 개발자": {
+    "title": "백엔드 개발자",
     "steps": [
       {
         "id": 1,
-        "title": "운동 생리학 기초",
-        "description": "인체의 운동 반응과 구조를 이해합니다.",
+        "title": "서버 및 데이터베이스 기초",
+        "description": "서버 구조와 SQL 기본을 학습합니다.",
         "resources": [
           {
-            "title": "KISS 운동생리학 개론",
-            "url": "https://www.kiss.kstudy.com/"
+            "title": "MDN 서버 기초",
+            "url": "https://developer.mozilla.org/ko/docs/Learn/Server-side"
           },
           {
-            "title": "NSCA 운동생리학",
-            "url": "https://www.nsca.com/"
+            "title": "W3Schools SQL 튜토리얼",
+            "url": "https://www.w3schools.com/sql/"
           }
         ]
       },
       {
         "id": 2,
-        "title": "체력 측정 및 프로그램 설계",
-        "description": "개인 맞춤형 운동 프로그램을 설계하는 법을 배웁니다.",
+        "title": "프로그래밍 언어 학습",
+        "description": "Java, Python, Node.js 등을 배웁니다.",
         "resources": [
           {
-            "title": "ACSM Personal Trainer Manual",
-            "url": "https://www.acsm.org/"
+            "title": "Java Tutorial",
+            "url": "https://docs.oracle.com/javase/tutorial/"
           },
           {
-            "title": "운동처방 강의 (YouTube)",
-            "url": "https://www.youtube.com/results?search_query=운동처방"
+            "title": "Python 공식 문서",
+            "url": "https://docs.python.org/3/tutorial/"
+          },
+          { "title": "Node.js 공식 문서", "url": "https://nodejs.org/en/docs/" }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "웹 프레임워크 활용",
+        "description": "Spring, Django, Express.js 등 프레임워크를 사용합니다.",
+        "resources": [
+          {
+            "title": "Spring Framework",
+            "url": "https://spring.io/projects/spring-framework"
+          },
+          {
+            "title": "Django 공식 문서",
+            "url": "https://docs.djangoproject.com/en/"
+          },
+          { "title": "Express.js 가이드", "url": "https://expressjs.com/" }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "API 설계 및 개발",
+        "description": "RESTful API 설계와 구현을 익힙니다.",
+        "resources": [
+          { "title": "REST API Tutorial", "url": "https://restfulapi.net/" },
+          { "title": "Postman 사용법", "url": "https://www.postman.com/" }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "보안 및 최적화",
+        "description": "웹 보안과 서버 최적화 기법을 배웁니다.",
+        "resources": [
+          {
+            "title": "OWASP Top 10",
+            "url": "https://owasp.org/www-project-top-ten/"
+          },
+          { "title": "웹 성능 최적화", "url": "https://web.dev/fast/" }
+        ]
+      }
+    ]
+  },
+  "풀스택 개발자": {
+    "title": "풀스택 개발자",
+    "steps": [
+      {
+        "id": 1,
+        "title": "프론트엔드 기초",
+        "description": "HTML, CSS, JavaScript 기본을 익힙니다.",
+        "resources": [
+          {
+            "title": "MDN HTML 가이드",
+            "url": "https://developer.mozilla.org/ko/docs/Web/HTML"
+          },
+          {
+            "title": "MDN CSS 가이드",
+            "url": "https://developer.mozilla.org/ko/docs/Web/CSS"
+          },
+          { "title": "JavaScript.info", "url": "https://javascript.info/" }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "백엔드 기초",
+        "description": "서버, 데이터베이스, API를 학습합니다.",
+        "resources": [
+          {
+            "title": "MDN 서버 기초",
+            "url": "https://developer.mozilla.org/ko/docs/Learn/Server-side"
+          },
+          {
+            "title": "W3Schools SQL 튜토리얼",
+            "url": "https://www.w3schools.com/sql/"
           }
         ]
       },
       {
         "id": 3,
-        "title": "PT 실무 경험",
-        "description": "현장에서 트레이닝을 직접 수행하며 경험을 쌓습니다.",
+        "title": "프레임워크 익히기",
+        "description": "React, Express, Django 등 풀스택 관련 프레임워크를 익힙니다.",
         "resources": [
+          { "title": "React 공식 문서", "url": "https://ko.reactjs.org/" },
+          { "title": "Express.js 공식 문서", "url": "https://expressjs.com/" },
           {
-            "title": "헬스장 실습 프로그램",
-            "url": "https://fitner.co.kr/"
-          },
-          {
-            "title": "현장 실습 후기",
-            "url": "https://blog.naver.com/"
+            "title": "Django 공식 문서",
+            "url": "https://docs.djangoproject.com/en/"
           }
         ]
       },
       {
         "id": 4,
-        "title": "자격증 취득",
-        "description": "국내외 피트니스 관련 자격증을 준비합니다.",
+        "title": "배포 및 DevOps 기본",
+        "description": "웹 애플리케이션 배포와 기본 DevOps 개념을 배웁니다.",
         "resources": [
           {
-            "title": "생활스포츠지도사",
-            "url": "https://www.kspo.or.kr/"
+            "title": "Netlify 배포 가이드",
+            "url": "https://docs.netlify.com/"
           },
           {
-            "title": "NSCA CPT",
-            "url": "https://www.nsca.com/certification/cpt/"
+            "title": "Docker 기본",
+            "url": "https://docs.docker.com/get-started/"
           }
         ]
       },
       {
         "id": 5,
-        "title": "고객 관리 및 커뮤니케이션",
-        "description": "고객과의 소통 및 상담 능력을 강화합니다.",
+        "title": "프로젝트 완성 및 포트폴리오 제작",
+        "description": "풀스택 프로젝트를 완성하고 포트폴리오를 만듭니다.",
+        "resources": [
+          { "title": "GitHub", "url": "https://github.com/" },
+          {
+            "title": "포트폴리오 제작 가이드",
+            "url": "https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio/"
+          }
+        ]
+      }
+    ]
+  },
+  "데이터 사이언티스트": {
+    "title": "데이터 사이언티스트",
+    "steps": [
+      {
+        "id": 1,
+        "title": "통계 및 수학 기초",
+        "description": "기초 통계학과 선형대수를 배웁니다.",
         "resources": [
           {
-            "title": "퍼스널트레이너 상담법",
-            "url": "https://www.youtube.com/results?search_query=pt상담"
+            "title": "Khan Academy 통계학",
+            "url": "https://ko.khanacademy.org/math/statistics-probability"
           },
           {
-            "title": "피트니스 코칭 스킬",
-            "url": "https://www.acefitness.org/"
+            "title": "3Blue1Brown 선형대수",
+            "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9KfsBYc5PnyQXBr8fdf"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "프로그래밍과 데이터 분석",
+        "description": "Python, Pandas, NumPy 활용법을 익힙니다.",
+        "resources": [
+          {
+            "title": "Python for Data Science",
+            "url": "https://www.datacamp.com/courses/intro-to-python-for-data-science"
+          },
+          {
+            "title": "Pandas 공식 문서",
+            "url": "https://pandas.pydata.org/docs/"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "머신러닝 기초",
+        "description": "기본 머신러닝 알고리즘을 학습합니다.",
+        "resources": [
+          {
+            "title": "Coursera 머신러닝 강의",
+            "url": "https://www.coursera.org/learn/machine-learning"
+          },
+          {
+            "title": "Scikit-learn 공식 문서",
+            "url": "https://scikit-learn.org/stable/"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "데이터 시각화",
+        "description": "Matplotlib, Seaborn 활용법을 익힙니다.",
+        "resources": [
+          {
+            "title": "Matplotlib 튜토리얼",
+            "url": "https://matplotlib.org/stable/tutorials/index.html"
+          },
+          { "title": "Seaborn 공식 문서", "url": "https://seaborn.pydata.org/" }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "프로젝트 수행 및 포트폴리오 제작",
+        "description": "데이터 분석 프로젝트를 완성하고 포트폴리오를 만듭니다.",
+        "resources": [
+          { "title": "Kaggle", "url": "https://www.kaggle.com/" },
+          {
+            "title": "포트폴리오 제작 가이드",
+            "url": "https://www.datacamp.com/community/tutorials/data-science-portfolio"
+          }
+        ]
+      }
+    ]
+  },
+  "AI 엔지니어": {
+    "title": "AI 엔지니어",
+    "steps": [
+      {
+        "id": 1,
+        "title": "수학 및 통계 기초",
+        "description": "선형대수, 미적분, 확률통계 기본을 학습합니다.",
+        "resources": [
+          {
+            "title": "Khan Academy 미적분",
+            "url": "https://ko.khanacademy.org/math/calculus-1"
+          },
+          {
+            "title": "통계학 강의",
+            "url": "https://www.coursera.org/learn/probability-statistics"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Python 프로그래밍",
+        "description": "Python 기초와 주요 라이브러리를 익힙니다.",
+        "resources": [
+          {
+            "title": "Python 공식 튜토리얼",
+            "url": "https://docs.python.org/3/tutorial/"
+          },
+          {
+            "title": "NumPy, Pandas, Matplotlib",
+            "url": "https://realpython.com/python-data-science/"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "머신러닝 및 딥러닝 기초",
+        "description": "기본 머신러닝과 딥러닝 모델을 학습합니다.",
+        "resources": [
+          {
+            "title": "Coursera 머신러닝 강의",
+            "url": "https://www.coursera.org/learn/machine-learning"
+          },
+          {
+            "title": "TensorFlow 튜토리얼",
+            "url": "https://www.tensorflow.org/tutorials"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "AI 프로젝트 경험",
+        "description": "실제 데이터로 모델을 만들고 평가합니다.",
+        "resources": [
+          {
+            "title": "Kaggle 대회",
+            "url": "https://www.kaggle.com/competitions"
+          },
+          {
+            "title": "GitHub 프로젝트",
+            "url": "https://github.com/topics/machine-learning-project"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "최신 연구 및 논문 읽기",
+        "description": "AI 분야 최신 연구 동향을 학습합니다.",
+        "resources": [
+          {
+            "title": "arXiv AI 논문",
+            "url": "https://arxiv.org/list/cs.AI/recent"
+          },
+          { "title": "Google AI 블로그", "url": "https://ai.googleblog.com/" }
+        ]
+      }
+    ]
+  },
+  "DevOps 엔지니어": {
+    "title": "DevOps 엔지니어",
+    "steps": [
+      {
+        "id": 1,
+        "title": "리눅스 및 쉘 스크립트 기초",
+        "description": "리눅스 명령어와 스크립트 작성법을 익힙니다.",
+        "resources": [
+          { "title": "Linux Journey", "url": "https://linuxjourney.com/" },
+          {
+            "title": "Shell Scripting Tutorial",
+            "url": "https://www.shellscript.sh/"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "버전 관리 시스템",
+        "description": "Git과 GitHub 활용법을 배웁니다.",
+        "resources": [
+          { "title": "Pro Git Book", "url": "https://git-scm.com/book/ko/v2" },
+          { "title": "GitHub Learning Lab", "url": "https://lab.github.com/" }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "CI/CD 파이프라인 구축",
+        "description": "Jenkins, GitHub Actions 등을 사용해 봅니다.",
+        "resources": [
+          {
+            "title": "Jenkins 공식 문서",
+            "url": "https://www.jenkins.io/doc/"
+          },
+          {
+            "title": "GitHub Actions 튜토리얼",
+            "url": "https://docs.github.com/en/actions"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "컨테이너 및 오케스트레이션",
+        "description": "Docker와 Kubernetes 기본을 익힙니다.",
+        "resources": [
+          { "title": "Docker 공식 문서", "url": "https://docs.docker.com/" },
+          {
+            "title": "Kubernetes 공식 문서",
+            "url": "https://kubernetes.io/ko/docs/home/"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "클라우드 서비스 활용",
+        "description": "AWS, Azure, GCP 등 클라우드 기본 서비스를 배웁니다.",
+        "resources": [
+          { "title": "AWS 교육", "url": "https://aws.amazon.com/training/" },
+          {
+            "title": "Google Cloud Training",
+            "url": "https://cloud.google.com/training"
+          }
+        ]
+      }
+    ]
+  },
+  "모바일 앱 개발자": {
+    "title": "모바일 앱 개발자",
+    "steps": [
+      {
+        "id": 1,
+        "title": "모바일 개발 기초",
+        "description": "iOS와 Android 개발 환경과 기본 개념을 익힙니다.",
+        "resources": [
+          {
+            "title": "Android Developers",
+            "url": "https://developer.android.com/"
+          },
+          { "title": "Apple Developer", "url": "https://developer.apple.com/" }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "프로그래밍 언어 학습",
+        "description": "Java/Kotlin 또는 Swift를 배웁니다.",
+        "resources": [
+          {
+            "title": "Kotlin 공식 문서",
+            "url": "https://kotlinlang.org/docs/home.html"
+          },
+          {
+            "title": "Swift 공식 문서",
+            "url": "https://swift.org/documentation/"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "모바일 UI/UX 디자인 이해",
+        "description": "모바일 앱의 사용자 경험 설계 원칙을 배웁니다.",
+        "resources": [
+          {
+            "title": "Google Material Design",
+            "url": "https://material.io/design/"
+          },
+          {
+            "title": "Apple Human Interface Guidelines",
+            "url": "https://developer.apple.com/design/human-interface-guidelines/"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "앱 배포 및 유지보수",
+        "description": "앱 스토어 등록과 버전 관리 방법을 익힙니다.",
+        "resources": [
+          {
+            "title": "Google Play Console",
+            "url": "https://play.google.com/console/about/"
+          },
+          {
+            "title": "App Store Connect",
+            "url": "https://developer.apple.com/app-store-connect/"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "실전 프로젝트 경험",
+        "description": "간단한 앱을 만들어 배포해 봅니다.",
+        "resources": [
+          {
+            "title": "Udemy 모바일 앱 강의",
+            "url": "https://www.udemy.com/topic/mobile-app-development/"
+          },
+          {
+            "title": "GitHub 프로젝트 예제",
+            "url": "https://github.com/topics/mobile-app"
+          }
+        ]
+      }
+    ]
+  },
+  "게임 개발자": {
+    "title": "게임 개발자",
+    "steps": [
+      {
+        "id": 1,
+        "title": "게임 개발 기초",
+        "description": "게임 엔진과 기본 프로그래밍을 배웁니다.",
+        "resources": [
+          {
+            "title": "Unity 공식 문서",
+            "url": "https://docs.unity3d.com/Manual/index.html"
+          },
+          {
+            "title": "Unreal Engine 공식 문서",
+            "url": "https://docs.unrealengine.com/en-US/index.html"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "프로그래밍 언어 학습",
+        "description": "C#, C++ 등을 익힙니다.",
+        "resources": [
+          {
+            "title": "C# 튜토리얼",
+            "url": "https://docs.microsoft.com/ko-kr/dotnet/csharp/"
+          },
+          { "title": "C++ 튜토리얼", "url": "https://www.learncpp.com/" }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "게임 디자인 원칙",
+        "description": "게임 기획과 UX/UI를 배웁니다.",
+        "resources": [
+          {
+            "title": "Game Design Document 작성법",
+            "url": "https://www.gamasutra.com/view/feature/130581/the_anatomy_of_a_design_document.php"
+          },
+          {
+            "title": "게임 UX 디자인",
+            "url": "https://www.uxdesign.cc/game-ux-design-8d87e9a88d7a"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "멀티플레이어 및 네트워크",
+        "description": "네트워크 프로그래밍과 서버 구조를 익힙니다.",
+        "resources": [
+          {
+            "title": "Photon Networking",
+            "url": "https://doc.photonengine.com/en-us/pun/current/getting-started/pun-intro"
+          },
+          {
+            "title": "Mirror Networking",
+            "url": "https://mirror-networking.com/"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "포트폴리오 및 출시",
+        "description": "작품 제작과 스토어 등록 과정을 경험합니다.",
+        "resources": [
+          {
+            "title": "Steamworks 개발자",
+            "url": "https://partner.steamgames.com/home"
+          },
+          {
+            "title": "Itch.io 개발자 가이드",
+            "url": "https://itch.io/docs/creators/development"
+          }
+        ]
+      }
+    ]
+  },
+  "UI/UX 디자이너": {
+    "title": "UI/UX 디자이너",
+    "steps": [
+      {
+        "id": 1,
+        "title": "디자인 기본 및 원칙",
+        "description": "디자인의 기초 이론과 사용자 경험 원칙을 배웁니다.",
+        "resources": [
+          {
+            "title": "Interaction Design Foundation",
+            "url": "https://www.interaction-design.org/"
+          },
+          { "title": "Nielsen Norman Group", "url": "https://www.nngroup.com/" }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "디자인 툴 활용",
+        "description": "Figma, Sketch, Adobe XD 등을 익힙니다.",
+        "resources": [
+          {
+            "title": "Figma 공식 가이드",
+            "url": "https://help.figma.com/hc/en-us"
+          },
+          {
+            "title": "Adobe XD 튜토리얼",
+            "url": "https://helpx.adobe.com/xd/tutorials.html"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "프로토타이핑 및 사용자 테스트",
+        "description": "프로토타입 제작과 사용자 테스트 기법을 익힙니다.",
+        "resources": [
+          {
+            "title": "Usability.gov 테스트 가이드",
+            "url": "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html"
+          },
+          {
+            "title": "프로토타이핑 튜토리얼",
+            "url": "https://www.invisionapp.com/inside-design/what-is-prototyping/"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "웹 및 모바일 UX 디자인",
+        "description": "다양한 플랫폼의 UX 디자인을 배웁니다.",
+        "resources": [
+          {
+            "title": "Google UX 디자인 인증",
+            "url": "https://grow.google/certificates/ux-design/"
+          },
+          {
+            "title": "Mobile UX Design",
+            "url": "https://uxdesign.cc/mobile-ux-design-best-practices-65a7dcefb388"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "포트폴리오 제작 및 커리어 개발",
+        "description": "디자인 포트폴리오 제작과 직무 역량 강화 방법을 배웁니다.",
+        "resources": [
+          { "title": "Behance", "url": "https://www.behance.net/" },
+          { "title": "Dribbble", "url": "https://dribbble.com/" }
+        ]
+      }
+    ]
+  },
+  "프로덕트 매니저": {
+    "title": "프로덕트 매니저",
+    "steps": [
+      {
+        "id": 1,
+        "title": "제품 기획 및 시장 조사",
+        "description": "제품 아이디어 발굴과 시장 분석을 배웁니다.",
+        "resources": [
+          { "title": "Lean Startup", "url": "https://theleanstartup.com/" },
+          {
+            "title": "시장 조사 방법론",
+            "url": "https://www.mindtools.com/pages/article/newSTR_94.htm"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "프로젝트 관리 및 협업",
+        "description": "애자일, 스크럼 등 관리 기법을 익힙니다.",
+        "resources": [
+          { "title": "Scrum Guide", "url": "https://scrumguides.org/" },
+          {
+            "title": "Jira 사용법",
+            "url": "https://www.atlassian.com/software/jira"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "데이터 분석 및 의사결정",
+        "description": "데이터 기반 의사결정과 KPI 설정을 배웁니다.",
+        "resources": [
+          {
+            "title": "Google Data Studio 튜토리얼",
+            "url": "https://support.google.com/datastudio/"
+          },
+          {
+            "title": "데이터 분석 입문",
+            "url": "https://www.datacamp.com/courses/introduction-to-data-analysis"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "제품 출시 및 마케팅",
+        "description": "출시 전략과 마케팅 기법을 익힙니다.",
+        "resources": [
+          {
+            "title": "Product Marketing Alliance",
+            "url": "https://productmarketingalliance.com/"
+          },
+          {
+            "title": "HubSpot 마케팅 자료",
+            "url": "https://www.hubspot.com/resources"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "고객 피드백 및 개선",
+        "description": "고객 의견 수집과 제품 개선 방법을 배웁니다.",
+        "resources": [
+          { "title": "UserVoice", "url": "https://www.uservoice.com/" },
+          {
+            "title": "피드백 수집 전략",
+            "url": "https://www.surveymonkey.com/mp/customer-feedback-surveys/"
           }
         ]
       }
